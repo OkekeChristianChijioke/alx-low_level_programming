@@ -3,6 +3,7 @@
 /**
  * numLength - returns the length of string
  * @num : operand number
+ *
  * Return: number of digits
  */
 
@@ -28,7 +29,8 @@ int numLength(int num);
 
 /**
  * *main - prints the first 98 fibonacci sequences
- * Return 0
+ *
+ * Return 0 (Success)
  */
 
 int main(void)
@@ -42,6 +44,7 @@ int main(void)
 		if (f10 > 0)
 			printf("%lu", f10);
 		initial0s = numLength(mx) - 1 - numLength(f1);
+
 		while	(f10 > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
